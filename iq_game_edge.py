@@ -26,13 +26,16 @@ answer_user=input("What is your answer?")
   
 if answer_right==answer_user:
   print("Wow! Your answer is right!")
-  #while answer_right==answer_user:
-    
+while answer_right==answer_user:
+  x=random.randint(0,4)
+  print ("Question 1:" + questions[x])
+  answer_right=answers[x]
+  answer_user=input("What is your answer?")
 else:
   print("Unfortunately, your answer is wrong. However, you can i,prove your knowledge by reading or watching the next: "+recomends[x])
   print("You have answered "+str(NUMBER OF RIGHT QUESTIONS)+" questions right.")
  #also we need to show the user his level somehow, like 1-3 questions - average level, 4-6 - above average, 7-10 - extraordinarily smart)
-  break
+
 
 print("Thank you for taking part in our quiz!")
 
