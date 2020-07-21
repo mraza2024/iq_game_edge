@@ -5,7 +5,9 @@ class Question:
         self.mcq = mcq
         self.answer = answer
 
+print("Welcome to the Intellectual Game! You will see 10 questions that will test your general knowledge and intelligence.Each question will have 1 point. At the end of the game, the program will show your result.\n\n Good luck!")
 
+print()
 questions_mcqs = [
 
 "Which of these is a type of hat?\n (a)Sausage roll\n (b)Pork pie\n (c)Scotch egg\n (d)Potato crisp\n\n",
