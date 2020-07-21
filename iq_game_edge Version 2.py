@@ -29,7 +29,7 @@ questions = [
 def start_quiz(questions):
     point = 0
     for question in questions:
-        answer = input(question.mcq)
+        answer = input(question.mcq +"Enter your answer = ")
         if answer == question.answer:
             point += 1
     print("Your totals points are " +str(point))
