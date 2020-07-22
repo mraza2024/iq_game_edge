@@ -20,13 +20,13 @@ questions_mcqs = [
 
 "Which of these US presidents appeared on the television series 'Laugh-In'?\n (a)Lyndon Johnson\n (b)Richard Nixon\n (c)Jimmy Carter\n (d)Gerald Ford\n\n",
 
-"Which of the following landlocked countries is entirely contained within another country?\n (a)Lesotho\n (b)Mongolia\n (c)Burkina Faso\n (d)Luxemburg\n\n"
+"Which of the following landlocked countries is entirely contained within another country?\n (a)Lesotho\n (b)Mongolia\n (c)Burkina Faso\n (d)Luxemburg\n\n",
 
-"In the children’s book series, where is Paddington Bear originally from?\n (a)India\n (b)Peru\n (c)Canada\n (d)Iceland\n\n"
+"In the children’s book series, where is Paddington Bear originally from?\n (a)India\n (b)Peru\n (c)Canada\n (d)Iceland\n\n",
 
-"During World War II, US soldiers used the first commercial aerosol cans to hold what?\n (a)Cleaning fluid\n (b)Antiseptic\n (c)Insecticide\n (d)Shaving cream\n\n"
+"During World War II, US soldiers used the first commercial aerosol cans to hold what?\n (a)Cleaning fluid\n (b)Antiseptic\n (c)Insecticide\n (d)Shaving cream\n\n",
 
-"The US icon Uncle Sam was based on Samuel Wilson who worked during the War of 1812 as a what?\n (a)Meat Inspector\n (b)Mail deliverer\n (c)Historian\n (d)Weapons mechanic\n\n"
+"The US icon Uncle Sam was based on Samuel Wilson who worked during the War of 1812 as a what?\n (a)Meat Inspector\n (b)Mail deliverer\n (c)Historian\n (d)Weapons mechanic\n\n",
 
 "Now used to refer to a cat, the word 'tabby' is derived from the name of a district of what world capital?\n (a)Baghdad\n (b)Cairo\n (c)New Delhi\n (b)Moscow\n\n"]
 
