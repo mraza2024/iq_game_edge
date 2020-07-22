@@ -18,15 +18,24 @@ questions_mcqs = [
 
 "The young of which creature is known as a squab?\n (a)Salmon\n (b)Horse\n (c)Pigeon\n (d)Octopus\n\n",
 
-"Which of these US presidents appeared on the television series 'Laugh-In'?\n (a)Lyndon Johnson\n (b)Richard Nixon\n (c)Jimmy Carter\n (d)Gerald Ford\n\n"]
+"Which of these US presidents appeared on the television series 'Laugh-In'?\n (a)Lyndon Johnson\n (b)Richard Nixon\n (c)Jimmy Carter\n (d)Gerald Ford\n\n",
+
+"Which of the following landlocked countries is entirely contained within another country?\n (a)Lesotho\n (b)Mongolia\n (c)Burkina Faso\n (d)Luxemburg\n\n"
+
+"In the children’s book series, where is Paddington Bear originally from?\n (a)India\n (b)Peru\n (c)Canada\n (d)Iceland\n\n"
+
+"During World War II, US soldiers used the first commercial aerosol cans to hold what?\n (a)Cleaning fluid\n (b)Antiseptic\n (c)Insecticide\n (d)Shaving cream\n\n"
+]
 
 questions = [
     Question(questions_mcqs[0],"b"),
     Question(questions_mcqs[1],"a"),
     Question(questions_mcqs[2],"d"),
     Question(questions_mcqs[3],"c"),
-    Question(questions_mcqs[4],"b")
-]
+    Question(questions_mcqs[4],"b"),
+    Question(questions_mcqs[5],"a"),
+    Question(questions_mcqs[6],"b")
+    Question(questions_mcqs[7],"c")]
 
 def start_quiz(questions):
     point = 0
