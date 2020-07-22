@@ -25,7 +25,10 @@ questions_mcqs = [
 "In the children’s book series, where is Paddington Bear originally from?\n (a)India\n (b)Peru\n (c)Canada\n (d)Iceland\n\n"
 
 "During World War II, US soldiers used the first commercial aerosol cans to hold what?\n (a)Cleaning fluid\n (b)Antiseptic\n (c)Insecticide\n (d)Shaving cream\n\n"
-]
+
+"The US icon Uncle Sam was based on Samuel Wilson who worked during the War of 1812 as a what?\n (a)Meat Inspector\n (b)Mail deliverer\n (c)Historian\n (d)Weapons mechanic\n\n"
+
+"Now used to refer to a cat, the word 'tabby' is derived from the name of a district of what world capital?\n (a)Baghdad\n (b)Cairo\n (c)New Delhi\n (b)Moscow\n\n"]
 
 questions = [
     Question(questions_mcqs[0],"b"),
@@ -34,8 +37,10 @@ questions = [
     Question(questions_mcqs[3],"c"),
     Question(questions_mcqs[4],"b"),
     Question(questions_mcqs[5],"a"),
-    Question(questions_mcqs[6],"b")
-    Question(questions_mcqs[7],"c")]
+    Question(questions_mcqs[6],"b"),
+    Question(questions_mcqs[7],"c"),
+    Question(questions_mcqs[8],"a"),
+    Question(questions_mcqs[9],"a")]
 
 def start_quiz(questions):
     point = 0
@@ -43,7 +48,7 @@ def start_quiz(questions):
         answer = input(question.mcq +"Enter your answer = ")
         if answer == question.answer:
             point += 1
-    print("Your totals points are " +str(point))
+    print("Your totals points are " +str(point)+"/10")
 
 start_quiz(questions)
 
