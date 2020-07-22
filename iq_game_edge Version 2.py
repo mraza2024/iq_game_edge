@@ -1,5 +1,5 @@
 
-#declaring the class Question
+#declaring the class Question to store questions and answers
 class Question:
     def __init__(self, mcq, answer):
         self.mcq = mcq
@@ -31,7 +31,7 @@ questions_mcqs = [
 
 "Now used to refer to a cat, the word 'tabby' is derived from the name of a district of what world capital?\n (a)Baghdad\n (b)Cairo\n (c)New Delhi\n (b)Moscow\n\n"]
 
-#list of the right answers for questions
+#creating objects for questions
 questions = [
     Question(questions_mcqs[0],"b"),
     Question(questions_mcqs[1],"a"),
@@ -44,7 +44,7 @@ questions = [
     Question(questions_mcqs[8],"a"),
     Question(questions_mcqs[9],"a")]
 
-#function that sets the grading system of our quiz: the right answer adds a point to it, the wrong answer keeps it the same
+#defing a function to lood through each question, get user's answer, store the data, and display totals points.
 def start_quiz(questions):
     point = 0
     for question in questions:
@@ -53,6 +53,7 @@ def start_quiz(questions):
             point += 1
 #the program shows the grade of a user (number of answers he got right)
     print("Your totals points are " +str(point)+"/10")
-#the quiz starts when we call this function
+#calling the function to initiate the program
 start_quiz(questions)
 
+input()
